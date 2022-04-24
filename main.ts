@@ -3,6 +3,10 @@ namespace positions {
     * positions
     */
    //% weight=100 color=#D98880 icon=↕️
+   /**
+    *  Put the sprite in the position
+    */
+    //% block
    export function putSpriteAt(x: number, y: number) : void {
         let mySprite = sprites.create(img`
             .............beebbbb............
